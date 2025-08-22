@@ -1,6 +1,9 @@
 // Write a temperature converter application that converts temperature 
 // between Celsius, kelvin and Fahrenheit.
 
+// ANSWER //
+
+// CONVERT CELSIUS TO KELVIN
 
 function convertCelsiusToKelvin(temp) {
     let newTemp = temp + 273.15
@@ -8,6 +11,7 @@ function convertCelsiusToKelvin(temp) {
     console.log('This is the new converted celsius temperature to Kelvin : ', newTemp);
 }
 
+// CONVERT CELSIUS TO FAHRENHEIT
 
 function convertCelsiusToFahrenheit(temp) {
     let newTemp = (temp * 9/5) + 32
@@ -15,11 +19,17 @@ function convertCelsiusToFahrenheit(temp) {
     console.log('This is the new converted celsius temperature to Fahrenheit : ', newTemp);
 }
 
+
+// CONVERT KELVIN TO CELSIUS
+
 function convertKelvinToCelsius(temp) {
     let newTemp = temp - 273.15
 
     console.log('This is the new converted kelvin temperature to Celsius : ', newTemp);
 }
+
+
+// CONVERT KELVIN TO FAHRENHEIT
 
 function convertKelvinToFahrenheit(temp) {
     let newTemp = (temp - 273.15) * 9/5 + 32
@@ -27,17 +37,26 @@ function convertKelvinToFahrenheit(temp) {
     console.log('This is the new converted kelvin temperature to Fahrenheit : ', newTemp);
 }
 
+
+// CONVERT FAHRENHEIT TO CELSIUS
+
 function convertFahrenheitToCelsius(temp) {
     let newTemp = (temp - 32) * 5/9
 
     console.log('This is the new converted fahrenheit temperature to Celsius : ', newTemp);
 }
 
+
+// CONVERT FAHRENHEIT TO KELVIN
+
 function convertFahrenheitToKelvin(temp) {
     let newTemp = (temp - 32) * 5/9 + 273.15
 
     console.log('This is the new converted fahrenheit temperature to Kelvin : ', newTemp);
 }
+
+// CALLING THE FUNCTIONS
+
 convertCelsiusToKelvin()
 convertCelsiusToFahrenheit()  
 convertKelvinToCelsius()
