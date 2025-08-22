@@ -1,2 +1,2 @@
 # Temperature Converter
-This is just a temperature convertyer app, for our test
+This is just a temperature converter app, for our test.
