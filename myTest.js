@@ -58,10 +58,15 @@ function convertFahrenheitToKelvin(temp) {
 // CALLING THE FUNCTIONS
 
 convertCelsiusToKelvin()
+
 convertCelsiusToFahrenheit()  
+
 convertKelvinToCelsius()
+
 convertKelvinToFahrenheit()
+
 convertFahrenheitToCelsius()
+
 convertFahrenheitToKelvin()
 
 
