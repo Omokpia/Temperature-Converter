@@ -1,7 +1,7 @@
-// Write a temperature converter application that converts temperature 
+// Q: Write a temperature converter application that converts temperatures 
 // between Celsius, kelvin and Fahrenheit.
 
-// ANSWER //
+                                    // ANSWER //
 
 // CONVERT CELSIUS TO KELVIN
 
